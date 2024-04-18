@@ -1,0 +1,114 @@
+.header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head__nav {
+    display: flex;
+    margin-top: 20px;
+}
+
+.head__logo {
+    margin-right: 674px;
+    width: 237px;
+    height: 24px;
+    color: var(--header-text);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.head__logo:hover {
+    color: gray;
+    transition: .5s;
+}
+
+.nav__list {
+    display: flex;
+}
+
+
+.nav__list-item {
+    margin-right: 40px;
+}
+
+.nav__list-item:last-child {
+    margin-right: 0;
+}
+
+.nav__list-link {
+    color: var(--header-text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+.nav__list-link:hover {
+    padding: 10px;
+    border-bottom: 2px solid var(--purple);
+    transition: .5s;
+}
+
+
+.prewiev__block {
+    margin-top: 34px;
+    width: 627.91px;
+    height: 627.91px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../img/Abstract.png);
+}
+
+.prewiev__title {
+    margin-top: 247px;
+    width: 90%;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    text-align: center;
+ }
+
+ .prewiev__title-name {
+     color: var(--purple);
+ }
+
+ .prewiv__subtitle {
+    color: rgb(255, 255, 255);
+     font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    text-align: center;
+ }
+
+ .prewiv__btn {
+    cursor: pointer;
+    width: 160px;
+    height: 48px;
+    border-radius: 5px;
+    background: rgb(92, 98, 236);
+    color: white;
+ }
+
+ .prewiv__btn:hover {
+    color: black;
+    background: rgb(144, 147, 224);
+    transition: .5s;
+ }
+
+ .prewiv__btn:active {
+     position: relative;
+     top: 2px;
+ }
+
+ 
