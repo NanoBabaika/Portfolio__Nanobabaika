@@ -6,3 +6,7 @@ $('.bxslider').bxSlider({
     maxSlides: 1,
     slideMargin: 350
   });
+  
+
+
+  adaptiveHeight= true;

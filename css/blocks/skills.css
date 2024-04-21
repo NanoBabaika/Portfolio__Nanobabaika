@@ -37,3 +37,10 @@
     letter-spacing: -0.5px;
     text-align: center;
 }
+
+@media(max-width:450px) {
+
+    .skills__info-desc {
+        width: 80%;
+    }
+}

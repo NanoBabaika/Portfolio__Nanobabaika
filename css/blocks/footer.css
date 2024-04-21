@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     max-height: 200px;
+    margin-top: auto;
 }
 
 .social__list {
@@ -22,4 +23,13 @@
 
 .social__list-link {
     text-decoration: none;
+}
+
+
+@media(max-width:700px) {
+
+    .section__footer {
+        height: 150px;
+    }
+    
 }

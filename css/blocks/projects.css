@@ -83,3 +83,30 @@
     text-align: center;
     text-decoration: none;
 }
+
+@media(max-width:700px) {
+    .projects__container {
+        width: 610px;
+    }
+
+    .bx-wrapper {
+        width: 610px;
+    } 
+    .slider_block {
+        display: flex;
+        width: 610px;
+        align-items: center;
+    }
+      
+}
+
+@media(max-width:450px) { 
+    .section__projects {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        max-width: 430px;
+    }
+
+ 
+}       

@@ -64,3 +64,20 @@
     text-align: left;
     cursor: pointer;
 }
+
+
+
+@media(max-width:450px) { 
+    .section__projects {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        max-width: 430px;
+    }
+    .projects__container {
+        max-width: 450px;
+    }
+    .section__title {
+        font-size: 42px;
+}
+}
