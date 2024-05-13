@@ -137,15 +137,6 @@
     .container {
         width: 400px;
     }
-    
-    .header__nav {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
     .header__container {
         display: flex;
         flex-direction: column;
@@ -160,10 +151,12 @@
     }
     .head__logo {
             position: relative;
-              top: -10px;
-            left: 390px;
+            top: -10px;
+            left: -80px;
+            margin-right: 0;
             padding-bottom: 40px;
     }
+ 
  }
 
 

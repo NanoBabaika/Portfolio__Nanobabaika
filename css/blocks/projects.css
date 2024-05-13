@@ -25,7 +25,7 @@
 }
 
 .bx-wrapper {
-    min-width: 900px;
+    max-width: 100%;
 }
 
 .slider__card {
@@ -86,7 +86,7 @@
 
 @media(max-width:700px) {
     .projects__container {
-        width: 610px;
+        width: 670px;
     }
 
     .bx-wrapper {
@@ -107,6 +107,20 @@
         align-content: center;
         max-width: 430px;
     }
+    .projects__container  {
+        width: 400px;
+        margin-right: 0;
+        margin-left: 0;
+    }
 
+    .slider__card {
+        width: 400px;
+        height: 400px;
+    }
+    .slider__card-img {
+        object-fit: cover;
+        width: 52%;
+        height: 72%;
+    }
  
 }       
