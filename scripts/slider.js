@@ -1,12 +1,27 @@
-$('.bxslider').bxSlider({
-    infiniteLoop: false,
-    hideControlOnEnd: true,
+const slider = $('.bxslider').bxSlider({
+    infiniteLoop: true,
     slideWidth: 900,
     minSlides: 1,
     maxSlides: 1,
-    slideMargin: 350
+    slideMargin: 300,
+    pager: false,
+    controls:false
   });
-  
 
 
-  adaptiveHeight= true;
+
+// кастомные стредочки
+  $(".arrow__left").click(e => {
+    e.preventDefault();
+
+    slider.goToPrevSlide();
+})
+
+
+$(".arrow__right").click(e => {
+    e.preventDefault();
+    slider.goToNextSlide();
+})
+ 
+
+// Ссылки слайдера???
