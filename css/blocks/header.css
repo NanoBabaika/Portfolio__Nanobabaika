@@ -95,16 +95,19 @@
     text-align: center;
  }
 
- .prewiv__btn {
+ .preview__btn {
+    display: flex;
+    align-items: center;
     cursor: pointer;
     width: 160px;
     height: 48px;
     border-radius: 5px;
     background: rgb(92, 98, 236);
     color: white;
+    padding-left: 17px;
  }
 
- .prewiv__btn:hover {
+ .preview__btn:hover {
     color: black;
     background: rgb(144, 147, 224);
     transition: .5s;
@@ -115,7 +118,14 @@
      top: 2px;
  }
 
- @media(max-width:700px) {
+ .preview__btn-downloadlink {
+     text-decoration: none;
+ }
+
+ 
+ 
+
+ @media(max-width:768px) {
      .container {
          width: 650px;
      }
@@ -133,9 +143,13 @@
 
 
 
- @media(max-width:450px) {
+ @media(max-width:500px) {
+    .section__head {
+        padding-top: 40px;
+     }
     .container {
         width: 400px;
+
     }
     .header__container {
         display: flex;
@@ -156,7 +170,7 @@
             margin-right: 0;
             padding-bottom: 40px;
     }
- 
+
  }
 
 
