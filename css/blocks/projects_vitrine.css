@@ -3,13 +3,7 @@
 }
 
 
-/* .projects__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
-
+ 
 .section__title {
     margin-top: 70px;
     color: rgb(92, 98, 236);
@@ -32,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 
@@ -46,7 +41,7 @@
     position: relative;
     bottom: 10px;
     left: 5px;
-    transition: .5s;
+    transition: 1s;
 }
 
 .project__list-link {
