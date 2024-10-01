@@ -63,12 +63,6 @@ address {
 
 
 
-.footer__container {
- margin-top: auto;
- min-width: 1150px;
-}
-
-
 :root {
   --black: #171718;
   --black-boder: #171718;

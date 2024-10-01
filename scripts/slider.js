@@ -1,9 +1,9 @@
 const slider = $('.bxslider').bxSlider({
     infiniteLoop: true,
-    slideWidth: 900,
+    slideWidth: 865,
     minSlides: 1,
     maxSlides: 1,
-    slideMargin: 300,
+    slideMargin: 20,
     pager: false,
     controls:false
   });

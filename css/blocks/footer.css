@@ -1,12 +1,13 @@
 .section__footer {
-    max-height: 200px;
+    height: 20%;
 }
 
+ 
 .footer {
     display: flex;
     justify-content: center;
-    max-height: 200px;
     margin-top: auto;
+    padding-bottom: 50px;
 }
 
 .social__list {
@@ -45,5 +46,15 @@
     .footer {
         padding-bottom: 150px;
         padding-left: 12%;
+    }
+}
+
+@media(max-width:400px) {
+    .footer {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .social__list {
+        margin-top: 30px;
     }
 }
