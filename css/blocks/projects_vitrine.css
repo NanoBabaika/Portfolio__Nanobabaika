@@ -24,6 +24,7 @@
 .poject__list-img {
     width: 370px;
     height: 278px;
+    border-radius: 6px;
 }
 
 .projects__list {
