@@ -45,6 +45,9 @@
 
 .slider__card-img {
     margin-bottom: 40px;
+    width: 865px;
+    height: 650px;
+    object-fit: cover;
 }
 
 .slide__desc {
@@ -158,10 +161,21 @@
  
     .slider__card-img {
         object-fit: cover;
-        /* width: 52%;
-        height: 72%; */
-        width: 350px;
-        height: 258px;
+        width: 250px;
+        height: 180px;
     }
-
+    .arrow__left {
+        position: relative;
+        top: -221px;
+        left: 150px;
+    }
+    
+    .arrow__right {
+        position: relative;
+        top: -260px;
+        left: 450px;
+    }
+    .slide__desc {
+        font-size: 18px;
+    }
 }       

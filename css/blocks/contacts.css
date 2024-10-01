@@ -36,3 +36,18 @@
     text-align: center;
     text-decoration: none;
 }
+
+@media(max-width:500px) {
+    .section__contacts {
+        height: 500px;
+    }
+    .container__contacts {
+        margin-bottom: 80px;
+    }
+    .contacts__subtitle {
+        font-size: 24px;
+    }
+    .section__title-contacts {
+        font-size: 30px;
+    }
+}

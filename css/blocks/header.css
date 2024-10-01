@@ -163,9 +163,12 @@
             width: 55%;
             font-size: 30px;       
     }
+    .prewiv__subtitle {
+        width: 50%;
+    }
     .head__logo {
             position: relative;
-            top: -10px;
+            top: -40px;
             left: -80px;
             margin-right: 0;
             padding-bottom: 40px;
