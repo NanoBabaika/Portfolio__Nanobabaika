@@ -95,5 +95,16 @@
     }
     .section__title {
         font-size: 30px;
-}
+    }
+    .projects__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+    .projects__list-item {
+        margin-right: 0;
+        width: 350px;
+    }
 }

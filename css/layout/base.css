@@ -52,7 +52,6 @@ address {
   flex-direction: column;
   min-height: 100%;
   overflow: hidden;
-  min-height: 1100px;
 }
  
 
